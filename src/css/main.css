@@ -88,6 +88,7 @@ header {
     border: 0;
     line-height: 50px;
     width: 600px;
+    height: 55px;
     padding-left: 70px;
     padding-right: 10px; }
   .form-header .cont-type-text {
@@ -115,7 +116,7 @@ header {
   font-family: "Montserrat-Bold", Arial, sans-serif;
   font-size: 24px;
   color: #ffba00;
-  line-height: 90px;
+  margin-bottom: 25px;
   text-transform: uppercase; }
 
 .section-how-double-bitcoints-text {
@@ -195,7 +196,7 @@ header {
   font-family: "Montserrat-Bold", Arial, sans-serif;
   font-size: 24px;
   color: #ffba00;
-  line-height: 90px;
+  margin-bottom: 25px;
   text-transform: uppercase; }
 
 .section-tabs-text {
@@ -206,7 +207,12 @@ header {
   margin-bottom: 40px; }
 
 .nav-item-tab {
-  padding-right: 0; }
+  padding-right: 0;
+  border: 1px solid #cbcbcb;
+  background: #f0f0f0; }
+
+.border-none-rt {
+  border-right: none; }
 
 .block-tabs {
   font-family: "Montserrat-Light", Arial, sans-serif; }
@@ -216,8 +222,14 @@ header {
   font-size: 14px;
   border-radius: 0;
   line-height: 38px;
-  padding: 0 17px;
+  padding: 0 16px;
   color: #959595; }
+
+.nav-tabs .tb-2 {
+  padding: 0 32px; }
+
+.nav-tabs .tb-3 {
+  padding: 0 51px; }
 
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
@@ -241,7 +253,7 @@ header {
   font-family: "Montserrat-Bold", Arial, sans-serif;
   font-size: 24px;
   color: #ffba00;
-  line-height: 90px;
+  margin-bottom: 25px;
   text-transform: uppercase; }
 
 .section-our-partner-text {
@@ -270,7 +282,9 @@ footer {
 /* Medium Devices, Desktops */
 @media only screen and (max-width: 992px) {
   img {
-    max-width: 100%; } }
+    max-width: 100%; }
+  .navbar {
+    margin-bottom: 100px; } }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width: 768px) {
@@ -288,6 +302,9 @@ footer {
     text-align: center;
     padding-bottom: 30px; }
   .section-our-partner {
-    padding-bottom: 50px; } }
+    padding-bottom: 50px; }
+  .cont-double-coins-title-1,
+  .cont-double-coins-title-2 {
+    font-size: 50px; } }
 
 /* Extra Small Devices, Phones */
